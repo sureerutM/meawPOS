@@ -96,14 +96,7 @@ export const Home = () => {
             });
     }, [])
 
-    // const addDataToFirebase = () => {
-    //     menu.forEach((each, i) => {
-    //         db.collection("menu").add(each).then(() => {
-    //             console.log('success', i)
-    //         })
-    //     })
-    // }
-
+    
 
     const handleOpenDialog = (item) => () => {
         setSelectMenu(item)
